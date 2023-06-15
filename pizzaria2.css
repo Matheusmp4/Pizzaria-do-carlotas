@@ -1,0 +1,64 @@
+
+ 
+ 
+ body{
+ 	background-color: white;
+ 
+ }
+ 
+ h1{
+Font-family: FreeMono, monospace;
+font-size: 20px;
+color: black;
+background-color:blue;
+border-radius: 10px;
+
+	}
+	
+	.titulo{
+box-shadow: 3px 1px 7px 3px;
+
+
+
+
+}
+ 
+ .imagem1{
+ 	
+border-radius:10px;
+border-color:#14e6ff;
+box-shadow: 1px 1px 7px 1px;
+color:blue;
+ 	
+ }
+ 
+ .imagem2{
+ 	border-radius: 15px;
+ 	border-color: #14e6ff;
+ box-shadow: 1px 1px 7px 1px;
+ color:blue;
+ 
+ }
+ 
+ p{
+ 	color: white;
+ }
+ 
+ button{
+color: black;
+width: 150px;
+height: 30px;
+
+
+}
+
+.menu{
+	border-color: #0d112d;
+	box-shadow: 1px 1px 1px 1px;
+	background-color: blue;
+	}
+	
+
+a{
+text-decoration: none;
+}
