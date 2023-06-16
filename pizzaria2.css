@@ -1,0 +1,86 @@
+
+ 
+ 
+ body{
+ 	background-color: white;
+ 
+ }
+ 
+ h1{
+Font-family: FreeMono, monospace;
+font-size: 20px;
+color: black;
+background-color:blue;
+border-radius: 10px;
+
+	}
+	
+	.titulo{
+box-shadow: 3px 1px 7px 3px;
+
+
+
+
+}
+ 
+ .imagem1{
+ 	
+border-radius:10px;
+border-color:#14e6ff;
+box-shadow: 1px 1px 7px 1px;
+color:blue;
+ 	
+ }
+ 
+ .imagem2{
+ 	border-radius: 15px;
+ 	border-color: #14e6ff;
+ box-shadow: 1px 1px 7px 1px;
+ color:blue;
+ 
+ }
+ 
+ p{
+ 	color: white;
+ }
+ 
+ button{
+width: 150px;
+height: 30px;
+border-radius:5px;
+border-color: black;
+
+
+}
+
+.menu{
+	border-color: #0d112d;
+	box-shadow: 3px 3px 7px 2px;
+	background-color: blue;
+	color:black;
+	font-size:15px;
+Font-family: FreeMono, monospace;
+	}
+	
+
+a{
+text-decoration: none;
+}
+
+h5{
+	color: black;
+	border-top: rgb(69, 69, 69) solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.Dias{
+		color: blue;
+	
+	border-top: rgb(69, 69, 69) solid;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+ }
+ 
+ 
