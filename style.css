@@ -1,0 +1,123 @@
+ .botaow{
+ 	width:160px;
+ height :40px;
+ justify-content: center; 
+  align-items: center;
+  display: flex;
+ 	background-color: #0d112d;
+ color:  green;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+padding-left: 20px; 
+ }
+ .botaoi{
+ 	width:160px;
+  heigth :40px;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+ 	background-color: #0d112d;
+ color:  red;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+ padding-left: 20px; 
+ }
+ .botaoa{
+ 	width:130px;
+ height :30px;
+ 	background-color: #0d112d;
+ color:  blue;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+ }
+ 
+ .botao2{
+width:130px;
+ height :40px;
+ 	background-color: rgb(0, 0, 100);
+ color:  white;
+ border-radius:75px;
+ border-color: rgb(0, 0, 71);
+ font-size: 15px;
+ box-shadow: 0px 0px 7px 0px;
+ 
+ 
+
+}
+ .botao3{
+width:130px;
+ height :40px;
+ 	background-color: rgb(0, 0, 100);
+ color:  white;
+ border-radius:75px;
+ border-color: rgb(0, 0, 71);
+ font-size: 15px;
+ box-shadow: 0px 0px 7px 0px;
+ }
+ 
+body{
+ 	background-color: #0d112d;
+ box-shadow: 1px 1px 3px 1px;
+ color: white;
+
+ }
+ 
+ h1{
+Font-family: Serif, Georgia;
+color: white;
+width: 350px;
+height:50px;
+font-size: 25px;
+box-shadow: 1px 1px 4px 1px;
+	}
+	
+	.titulo{
+
+
+
+}
+ 
+ .imagem1{
+ 	
+border-radius:50px;
+color: black;
+box-shadow: 1px 1px 7px 1px;
+ 	
+ }
+ 
+ .imagem2{
+ 	border-radius: 15px;
+ 	border-color: #14e6ff;
+ box-shadow: 1px 1px 7px 1px;
+ color: black;
+ }
+ 
+ p{
+ 	color: white;
+ }
+ 
+ 
+ .logo-insta{
+ 	width: 10px;
+
+
+}
+
+a{
+text-decoration: none;
+}
+
+h5{
+	color: white;
+	border-top: black solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+ 
