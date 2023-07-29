@@ -1,0 +1,108 @@
+
+body{
+ 	background-color: #0d112d;
+ font-size: 27px;
+ }
+ 
+ .text{
+		
+		
+		top: 50%;
+		left:50%;
+		font-size 30px;
+		animation: ani 5s ease-in infinite;
+		}
+		
+		@keyframes ani{
+			
+			0%{
+color: #14b5ff;
+}
+			
+		
+			50%{
+color: white;
+}
+			75%{
+				color: #2b67ba;
+}
+			100%{
+				color: blue;
+}
+	     }
+						
+	
+
+		
+						
+	a{
+		text-decoration: none;
+		}
+}
+			
+			.zap{
+				color: #fff;
+				text-decoration: none;
+}
+				.espaco{
+					height: 37px;
+					width:200px;
+					background-color:black;
+					font-size: 17px;
+					color:white;
+					top:50%;
+					left:50%;
+					border-color: blue;
+					
+}
+					
+					.bution{
+						height:35px;
+						width: 200px;
+						color:#fff;
+						background-color: black;
+						top:50%;
+						left:50%;
+						border-color:blue;
+}
+					
+					.zap{
+			top: 50%;
+		left:50%;
+		font-size: 20px;
+		animation: anip 5s ease-in infinite;
+		}
+		
+		@keyframes anip{
+			
+			0%{
+color: #14b5ff;
+}
+			
+		
+			50%{
+color: white;
+}
+			75%{
+				color: #2b67ba;
+}
+			100%{
+				color: white;
+}
+	     }
+	
+	.top{
+		height:35px;
+						width: 200px;
+						color:#fff;
+						background-color: black;
+						top:50%;
+						left:50%;
+						border-color:blue;
+		
+		}
+		
+		audio{ 
+			display: none;
+			
+			}
