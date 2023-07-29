@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+<title> Dias é o cara </title>
+<link rel="icon" type="image/png" sizes="32x32"  href="pizzaria32x32.png">
+	<link rel="stylesheet" href="login.css">
+<center>
+		
+    
+		
+    
+<h2 class="text">Login</h2>
+
+
+    <input class="espaco" type="password" id="senha" placeholder="Digite a senha">
+  <br> <br>
+  <button class="bution"onclick="verificarSenha()">Entrar</button>
+  
+    <p id="mensagemErro" style="color: red; display: none;">Senha incorreta. Tente novamente.</p>
+<br>
+	<br>
+	<p class="text2"> <a class="zap"href="https://wa.me/5521983216704?text=A%20senha%20é:%20omatyhvei"> clique aqui para pegar a senha.</a>
+    <script>
+        function verificarSenha() {
+            var senhaDigitada = document.getElementById('senha').value;
+            var senhaCorreta = 'omatyhvei'; 
+
+            if (senhaDigitada === senhaCorreta) {
+                window.location.href="exposed.html"
+            } else {
+                var mensagemErro = document.getElementById('mensagemErro');
+                mensagemErro.style.display = 'block';
+            }
+        }
+    </script>
+    
+    <br><br><br>
+    	<audio id="musica" src="lofi1.mp3" preload="auto"></audio>
+  
+  <button class="top"onclick= "tocarMusica()"> Tocar Lofi </button>
+   
+ <script>
+    
+var musica = document.getElementById ('musica')
+
+    function tocarMusica() {
+    if( musica.paused){
+    musica.play();
+    } else {
+   musica.pause();
+   	}
+   }
+    </script>
+    
+    
+    	<audio id="musicax" src="lofi1.mp3" preload="auto"></audio>
+    <button class="top"onclick= "pausarAudio()"> Pausar Lofi </button>
+<script>
+        var musica = document.getElementById('musicax');
+
+        function pausarAudio() {
+            musicax.pause();
+        }
+    </script>
+    
+    </center>
+</body>
+</html>
