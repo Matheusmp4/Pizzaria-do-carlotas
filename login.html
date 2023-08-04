@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" /> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+<title> Dias é o cara </title>
+<link rel="icon" type="image/png" sizes="32x32"  href="pizzaria32x32.png">
+	<link rel="stylesheet" href="login.css">
+<center>
+		
+    
+		
+    
+<h2 class="text">Login</h2>
+<br>
+	
+
+    <input class="espaco" type="password" id="senha" placeholder="Digite a senha">
+  <br> <br>
+  <button class="bution"onclick="verificarSenha()">Entrar</button>
+  
+    <p id="mensagemErro" style="color: red; display: none;">Senha incorreta. Tente novamente.</p>
+<br>
+	<br>
+	    <div class="aninome">
+    <script> 
+var nome = window.prompt('Qual seu nome?')
+    window.alert ('Olá ' + nome  + ', a senha é: matyh ')
+
+    document.write( nome + '✅️' ) //mostrar mensagem na tela
+</script>
+
+</div>
+<script>
+    
+  
+        function verificarSenha() {
+            var senhaDigitada = document.getElementById('senha').value;
+            var senhaCorreta = 'matyh'; 
+
+            if (senhaDigitada === senhaCorreta) {
+                window.location.href="exposed.html"
+            } else {
+                var mensagemErro = document.getElementById('mensagemErro');
+                mensagemErro.style.display = 'block';
+            }
+        }
+    </script>
+    
+    <br><br><br>
+    	<audio id="musica" src="lofi1.mp3" preload="auto"></audio>
+  
+  <button class="top"onclick= "tocarMusica()"> Tocar Música </button>
+   
+ <script>
+    
+var musica = document.getElementById ('musica')
+
+    function tocarMusica() {
+    if( musica.paused){
+    musica.play();
+    } else {
+   musica.pause();
+   	}
+   }
+    </script>
+    
+    
+    	<audio controls id="musicax" src="lofi1.mp3" ></audio>
+    <button class="top"onclick= "pausarAudio()"> Pausar Música</button>
+<script>
+        var musica = document.getElementById('musicax');
+
+        function pausarAudio() {
+            musicax.pause();
+        }
+    </script>
+     	<br><br>
+ 
+    </center>
+</body>
+</html>
