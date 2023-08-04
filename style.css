@@ -1,0 +1,183 @@
+ .botaow{
+ 	width:160px;
+ height :40px;
+ justify-content: center; 
+  align-items: center;
+  display: flex;
+ 	background-color: #0d112d;
+ color:  green;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+padding-left: 20px; 
+ }
+ .botaoi{
+ 	width:160px;
+  heigth :40px;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+ 	background-color: #0d112d;
+ color:  red;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+ padding-left: 20px; 
+ }
+ .botaoa{
+ 	width:160px;
+ height :40px;
+ 	background-color: #0d112d;
+ color:  blue;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+ }
+ 
+ .botao2{
+width:130px;
+ height :40px;
+ 	background-color: rgb(0, 0, 100);
+ color:  white;
+ border-radius:75px;
+ border-color: rgb(0, 0, 71);
+ font-size: 15px;
+ box-shadow: 0px 0px 7px 0px;
+ 
+ 
+
+}
+ .botao3{
+width:130px;
+ height :40px;
+ 	background-color: rgb(0, 0, 100);
+ color:  white;
+ border-radius:75px;
+ border-color: rgb(0, 0, 71);
+ font-size: 15px;
+ box-shadow: 0px 0px 7px 0px;
+ }
+ 
+body{
+ 	background-color: #0d112d;
+ box-shadow: 1px 1px 7px 1px;
+ color: #0d113d;
+
+ }
+ 
+h1{
+Font-family: bold;
+color: #F0FFFF;
+width: 350px;
+height:80px;
+font-size: 35px;
+box-shadow: 1px 1px 1px 1px;
+align-items: center;
+display: flex;
+  justify-content: center;
+
+	}
+	
+	.titulo{
+
+
+
+}
+ 
+ .imagem1{
+ 	
+border-radius:50px;
+color: black;
+box-shadow: 1px 1px 7px 1px;
+ 	
+ }
+ 
+ .imagem2{
+ 	border-radius: 15px;
+ 	border-color: #14e6ff;
+ box-shadow: 1px 1px 7px 1px;
+ color: black;
+ }
+ 
+ p{
+ 	color: white;
+ }
+ 
+ 
+ .logo-insta{
+ 	width: 10px;
+
+
+}
+
+a{
+text-decoration: none;
+color: #00FFFF;
+}
+
+h5{
+	color: grey;
+	border-top: black solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.Dias{
+		color: grey;
+		}
+	h6{
+		color: grey;
+		}
+ button{
+ 	 	width:130px;
+ height :30px;
+ 	background-color: #0d112d;
+ color:  blue;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+ }
+ 
+ audio{
+ 	width: 200px;
+ color: black;
+ background-color:  black;
+ border-radius:20px; 
+ }
+ 
+ #politicas{
+ 	
+ display:none;
+ 
+ 
+}
+
+.sla{
+	color: white;
+	}
+	
+#Npoliticas{
+	display: none;
+	}
+	
+	.legal{
+		
+		width:165px;
+ height :35px;
+ 	background-color: #0d112d;
+ color:  blue;
+ border-radius:75px;
+ border-color: #14e6ff;
+ font-size: 16px;
+ box-shadow: 0px 0px 7px 0px;
+		}
+		
+		
+li{
+	padding: 0;
+	color: #F0FFFF;
+	
+	}
